@@ -1,5 +1,5 @@
 # DC-NM-KCL-3rd_Year_Unity_Solar_System-2021
-This repository contains all documents required for the Unity Project David and Nur created
+This Repository contains all documents required to recreate the Unity Project created by David Childs and Nur Imanina Binti Mohd Faidzal for our 3rd Year Physics Undergaduate Project at King's College London 
 
 **Please Copy All Data into a new Unity Project folder**
 
