@@ -1,9 +1,7 @@
 # DC-NM-KCL-3rd_Year_Unity_Solar_System-2021
 This repository contains all documents required for the Unity Project David and Nur created
 
-Please Copy the Folder:
-
-    3rd Year Project David Nur Solar System
+Please Copy All Data into a new Unity Project folder
 
 Into your folder with Unity projects.
 
