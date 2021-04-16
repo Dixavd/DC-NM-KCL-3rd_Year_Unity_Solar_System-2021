@@ -32,7 +32,7 @@ This Repository contains all documents required to recreate the Unity Project cr
 
 ---------------------------------------------------------------------------------------------------------------------
 
-**Below is a description of how to interact with the software.**
+-- BELOW IS A GUIDE FOR THE SOFTWARE --
 
 Feel Free to skim it or only refer back when you need to. A Script called README.sc exists in the Unity Project as well.
 The README.sc script doe nothing; it just contains a copy of the below information.
