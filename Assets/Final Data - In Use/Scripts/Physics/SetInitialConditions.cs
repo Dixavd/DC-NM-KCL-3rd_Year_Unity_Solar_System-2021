@@ -270,6 +270,10 @@ public class SetInitialConditions : MonoBehaviour
 
         // Activate Spin calculations
         runSpin = true;
+
+        // Reset trail of Object so it's empty when Gravity begins
+        this.GetComponent<TrailRenderer>().Clear();
+
         // Notify Gravity script to start caclulations
         this.GetComponent<GravitationalAttraction>().runGravity = true;
 

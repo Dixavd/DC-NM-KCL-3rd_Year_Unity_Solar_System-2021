@@ -2449,12 +2449,6 @@ Rigidbody:
     type: 3}
   m_PrefabInstance: {fileID: 92990893}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &92990895 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3734884862578307432, guid: 562ac507eb508cd418ca277d878d8d3e,
-    type: 3}
-  m_PrefabInstance: {fileID: 92990893}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &98540819
 GameObject:
   m_ObjectHideFlags: 0
@@ -9326,7 +9320,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: -22}
+  m_AnchoredPosition: {x: 6, y: -40}
   m_SizeDelta: {x: 596.82666, y: 407.56195}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &473495326
@@ -9348,15 +9342,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "WELCOME TO THE CONTROLS VIEW\n1. Move the camera around by clicking W,A,S,D.\n2.Scroll
-    up to zoom in and scroll down to zoom out.\n3.Choose an object in the menu to
-    focus on that object.\n4. Enjoy reading information display!\n5. Adjust the scales
-    by moving up and down the sliders. \n[distance (red), size (blue) and time (green)]\n\n\n6.
-    Click on RESET to reset the scales.\n7. To change between proportion modes, press
-    the purple toggle.\n8. To turn on/off the lights, press the orange toggle.\n9.
-    Generate an object or many objects to modify the Solar System!\n10. Switch to
-    the fly view (spacebar) to explore your new Solar System!\n11. To open/close
-    this instructions panel, click on the yellow toggle. \nENJOY!"
+  m_text: "WELCOME TO THE CONTROLS VIEW\nSwitch to Free View Mode to move around!\nChoose
+    an object in the dropdown menu to see it upclose!\nEnjoy reading the information
+    display!\nAdjust the scales by moving the sliders!\n[distance (red), size (blue)
+    and time (green)]\n\n\nClick RESET to reset the scales.\nTo change between proportion
+    modes, press the purple toggle.\nTo turn on/off the lights, press the orange
+    toggle.\nGenerate an object or many objects to modify the Solar System!\nSwitch
+    to the fly view (spacebar) to explore your new Solar System!\nTo open/close this
+    instructions panel, press the yellow toggle. \nENJOY!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10284,99 +10277,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516330414}
   m_CullTransparentMesh: 0
---- !u!1 &518716518
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 518716519}
-  - component: {fileID: 518716522}
-  - component: {fileID: 518716521}
-  - component: {fileID: 518716520}
-  m_Layer: 0
-  m_Name: Sphere (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &518716519
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 518716518}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 0}
-  m_Children: []
-  m_Father: {fileID: 92990895}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &518716520
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 518716518}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &518716521
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 518716518}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 80e07fe3bf685f14cb9ae5d5434b0cb4, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &518716522
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 518716518}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &519458739
 GameObject:
   m_ObjectHideFlags: 0
@@ -10840,85 +10740,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 0
---- !u!1 &524413847
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 524413848}
-  - component: {fileID: 524413850}
-  - component: {fileID: 524413849}
-  m_Layer: 0
-  m_Name: Circle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &524413848
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524413847}
-  m_LocalRotation: {x: 0.5735764, y: 0, z: 0, w: 0.8191521}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
-  m_Children: []
-  m_Father: {fileID: 92990895}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 70, y: 0, z: 0}
---- !u!23 &524413849
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524413847}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 80e07fe3bf685f14cb9ae5d5434b0cb4, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &524413850
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524413847}
-  m_Mesh: {fileID: -2124705421725058983, guid: 73135a4aa8734c54bae310facfed4c78, type: 3}
 --- !u!1 &526949740
 GameObject:
   m_ObjectHideFlags: 0
@@ -10953,7 +10774,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 216}
+  m_AnchoredPosition: {x: 0, y: 204}
   m_SizeDelta: {x: 313.27283, y: 57.800285}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &526949742
@@ -11297,8 +11118,9 @@ MonoBehaviour:
   currentTimeScale: 1
   currentDistanceScale: 1
   currentrenderScale: 1
-  proportionToggle: {fileID: 1848812297}
   renderCheck: 1
+  proportionToggle: {fileID: 1848812297}
+  flyingCamera: {fileID: 0}
 --- !u!1001 &554395072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13169,87 +12991,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 679125753}
   m_CullTransparentMesh: 0
---- !u!1 &693814882
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 693814883}
-  - component: {fileID: 693814884}
-  m_Layer: 0
-  m_Name: New Sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &693814883
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 693814882}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 92990895}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &693814884
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 693814882}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &695654384
 GameObject:
   m_ObjectHideFlags: 0
@@ -14849,6 +14590,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5977edec1cd51d47892f61e5169c01f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MassDropdown: {fileID: 1408603956}
+  RadiusDropdown: {fileID: 756314653}
+  FocalPointDropdown: {fileID: 333355317}
+  Object1Dropdown: {fileID: 1811436826}
+  DistanceDropdown: {fileID: 1246853261}
+  Object2Dropdown: {fileID: 2031682043}
+  Object3Dropdown: {fileID: 966150361}
+  DistanceDirectionDropdown: {fileID: 1560448416}
+  Object4Dropdown: {fileID: 1453907280}
+  SpeedDropdown: {fileID: 1187338242}
+  Object5Dropdown: {fileID: 987592863}
+  Object6Dropdown: {fileID: 662786445}
+  VelocityDirectionDropdown: {fileID: 1768269596}
+  Object7Dropdown: {fileID: 1291488607}
+  nameInputField: {fileID: 1793220865}
+  massInputField: {fileID: 1901514746}
+  radiusInputField: {fileID: 1000987557}
+  vectorX1InputField: {fileID: 140172204}
+  vectorY1InputField: {fileID: 1302122784}
+  vectorZ1InputField: {fileID: 1417172336}
+  distanceInputField: {fileID: 1146822373}
+  vectorX2InputField: {fileID: 1593423722}
+  vectorY2InputField: {fileID: 1243738786}
+  vectorZ2InputField: {fileID: 1980473014}
+  speedInputField: {fileID: 7853960}
+  vectorX3InputField: {fileID: 2143159}
+  vectorY3InputField: {fileID: 1962485487}
+  vectorZ3InputField: {fileID: 283115113}
+  theta1InputField: {fileID: 1727608784}
+  phi1InputField: {fileID: 16010922}
+  theta2InputField: {fileID: 1056122872}
+  phi2InputField: {fileID: 566290830}
   prefabObject: {fileID: 6706967537045271407, guid: 41be2517a2fc1d84fa47dbaff0004255,
     type: 3}
   dropdownMassUnit: None
@@ -14892,38 +14665,6 @@ MonoBehaviour:
   EmptyInformationPanel: {fileID: 0}
   mainDropdownList: []
   ChooseAnObject: {fileID: 107306986}
-  nameInputField: {fileID: 1793220865}
-  MassDropdown: {fileID: 1408603956}
-  RadiusDropdown: {fileID: 756314653}
-  FocalPointDropdown: {fileID: 333355317}
-  Object1Dropdown: {fileID: 1811436826}
-  DistanceDropdown: {fileID: 1246853261}
-  DistanceDirectionDropdown: {fileID: 1560448416}
-  Object2Dropdown: {fileID: 2031682043}
-  Object3Dropdown: {fileID: 966150361}
-  Object4Dropdown: {fileID: 1453907280}
-  SpeedDropdown: {fileID: 1187338242}
-  Object5Dropdown: {fileID: 987592863}
-  Object6Dropdown: {fileID: 662786445}
-  VelocityDirectionDropdown: {fileID: 1768269596}
-  Object7Dropdown: {fileID: 1291488607}
-  massInputField: {fileID: 1901514746}
-  radiusInputField: {fileID: 1000987557}
-  vectorX1InputField: {fileID: 140172204}
-  vectorY1InputField: {fileID: 1302122784}
-  vectorZ1InputField: {fileID: 1417172336}
-  distanceInputField: {fileID: 1146822373}
-  vectorX2InputField: {fileID: 1593423722}
-  vectorY2InputField: {fileID: 1243738786}
-  vectorZ2InputField: {fileID: 1980473014}
-  speedInputField: {fileID: 7853960}
-  vectorX3InputField: {fileID: 2143159}
-  vectorY3InputField: {fileID: 1962485487}
-  vectorZ3InputField: {fileID: 283115113}
-  theta1InputField: {fileID: 1727608784}
-  phi1InputField: {fileID: 16010922}
-  theta2InputField: {fileID: 1056122872}
-  phi2InputField: {fileID: 566290830}
   rbObject1: {fileID: 0}
   rbObject2: {fileID: 0}
   rbObject3: {fileID: 0}
@@ -16890,99 +16631,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &933021687
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 933021688}
-  - component: {fileID: 933021691}
-  - component: {fileID: 933021690}
-  - component: {fileID: 933021689}
-  m_Layer: 0
-  m_Name: Sphere
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &933021688
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 933021687}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.5, y: 3.5, z: 0}
-  m_Children: []
-  m_Father: {fileID: 92990895}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &933021689
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 933021687}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &933021690
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 933021687}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: faa8ca2e791ea424da962996fb1fa546, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &933021691
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 933021687}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &933192550
 GameObject:
   m_ObjectHideFlags: 0
@@ -30986,6 +30634,22 @@ MonoBehaviour:
   - Uranus
   - Neptune
   - Free View Mode
+  secondaryObjects:
+  - Moon
+  - Phobos
+  - Deimos
+  - Io
+  - Europa
+  - Callisto
+  - Ganymede
+  - Titan
+  - Rhea
+  - Iapetus
+  - Titania
+  - Oberon
+  - Umbriel
+  - Ariel
+  - Triton
 --- !u!224 &1673078688
 RectTransform:
   m_ObjectHideFlags: 0
