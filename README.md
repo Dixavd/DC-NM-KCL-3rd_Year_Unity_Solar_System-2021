@@ -1,6 +1,6 @@
 # DC-NM-KCL-3rd_Year_Unity_Solar_System-2021
 
-**This Repository contains all documents required to recreate the Unity Project created by David Childs and Nur Imanina Binti Mohd Faidzal for our 3rd Year Physics Undergaduate Project at King's College London **
+This Repository contains all documents required to recreate the Unity Project created by David Childs and Nur Imanina Binti Mohd Faidzal for our 3rd Year Physics Undergaduate Project at King's College London
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -32,11 +32,11 @@
                     However the initial positions in "Solar System" is purely for display purposes
 
 ---------------------------------------------------------------------------------------------------------------------
-**
+
 -- BELOW IS A GUIDE FOR THE SOFTWARE --
 
 Feel Free to skim it or only refer back when you need to. A Script called README.sc exists in the Unity Project as well.
-The README.sc script doe nothing; it just contains a copy of the below information.**
+The README.sc script doe nothing; it just contains a copy of the below information.
 
 ---------------------------------------------------------------------------------------------------------------------
 
