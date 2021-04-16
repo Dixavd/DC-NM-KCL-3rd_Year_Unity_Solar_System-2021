@@ -181,6 +181,9 @@ View from a camera directly above the simulation (placed in positive z-direction
                     Yellow Empty: Central Information Panel is INVISIBLE
                         Recommended turning Yellow checkbox to Empty when information panel is not required
 
+                PLEASE CLICK SOMETHING NON-INTERACTABLE BEFORE CLICKING SPACE-BAR TO SWITCH VIEWS
+                    For instance, Unity sometimes registers the space-bar as clicking a checkbox otherwise
+
         4) Generation Panel:
             Left Panel of inputs and Dropdowns with button at the top called "GENERATE NEW OBJECT"
             This Panel allows a new object to be created

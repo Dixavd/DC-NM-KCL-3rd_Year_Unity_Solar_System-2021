@@ -9342,14 +9342,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "WELCOME TO THE CONTROLS VIEW\nSwitch to Free View Mode to move around!\nChoose
-    an object in the dropdown menu to see it upclose!\nEnjoy reading the information
-    display!\nAdjust the scales by moving the sliders!\n[distance (red), size (blue)
-    and time (green)]\n\n\nClick RESET to reset the scales.\nTo change between proportion
-    modes, press the purple toggle.\nTo turn on/off the lights, press the orange
-    toggle.\nGenerate an object or many objects to modify the Solar System!\nSwitch
-    to the fly view (spacebar) to explore your new Solar System!\nTo open/close this
-    instructions panel, press the yellow toggle. \nENJOY!"
+  m_text: "WELCOME TO THE CONTROLS VIEW\n1. Move the camera around by clicking W,A,S,D.\n2.Scroll
+    up to zoom in and scroll down to zoom out.\n3.Choose an object in the menu to
+    focus on that object.\n4. Enjoy reading information display!\n5. Adjust the scales
+    by moving up and down the sliders. \n[distance (red), size (blue) and time (green)]\n\n\n6.
+    Click on RESET to reset the scales.\n7. To change between proportion modes, press
+    the purple toggle.\n8. To turn on/off the lights, press the orange toggle.\n9.
+    Generate an object or many objects to modify the Solar System!\n10. Switch to
+    the fly view (spacebar) to explore your new Solar System!\n11. To open/close
+    this instructions panel, click on the yellow toggle. \nENJOY!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
