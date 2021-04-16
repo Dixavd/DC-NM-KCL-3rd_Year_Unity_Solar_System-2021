@@ -1,5 +1,12 @@
 # DC-NM-KCL-3rd_Year_Unity_Solar_System-2021
 
+**-- BELOW IS A GUIDE FOR THE SOFTWARE --**
+
+**Feel Free to skim it or only refer back when you need to. A Script called README.sc exists in the Unity Project as well.
+The README.sc script doe nothing; it just contains a copy of the below information. **
+
+---------------------------------------------------------------------------------------------------------------------
+
 This Repository contains all documents required to recreate the Unity Project created by David Childs and Nur Imanina Binti Mohd Faidzal for our 3rd Year Physics Undergaduate Project at King's College London
 
 ---------------------------------------------------------------------------------------------------------------------
@@ -20,23 +27,13 @@ This Repository contains all documents required to recreate the Unity Project cr
         In the Project Files panel, Go to:
             "Assets" > "Final Data - In Use" > "Scenes"
         Open the Scene:
-            "Solar System"
+            "3rd Year Project David Nur Solar System Final"
 
             NOTE: The Scene Titled:
-                "3rd Year Project David Nur Solar System Final"
+                "Solar System"
             Is almost-identical to "Solar System", 
-                except that all objects, other than the Sun, are at the origin.
-                    If you move the Sun, all objects are placed relative to it
-                They run the same programm otherwise
-                "Solar System" is just easier to view all the planets initially prior to running.
-                    However the initial positions in "Solar System" is purely for display purposes
-
----------------------------------------------------------------------------------------------------------------------
-
--- BELOW IS A GUIDE FOR THE SOFTWARE --
-
-Feel Free to skim it or only refer back when you need to. A Script called README.sc exists in the Unity Project as well.
-The README.sc script doe nothing; it just contains a copy of the below information.
+                except that the objects were in different places initially for debugging
+                    "Solar System" may also not have the most recent UI edits
 
 ---------------------------------------------------------------------------------------------------------------------
 
