@@ -1,11 +1,41 @@
 # DC-NM-KCL-3rd_Year_Unity_Solar_System-2021
 This Repository contains all documents required to recreate the Unity Project created by David Childs and Nur Imanina Binti Mohd Faidzal for our 3rd Year Physics Undergaduate Project at King's College London 
 
-**Please Copy All Data into a new Unity Project folder**
+---------------------------------------------------------------------------------------------------------------------
 
-Into your folder with Unity projects.
+-- HOW TO RECREATE THE UNITY PROJECT --
 
-A Script called README.sc exists inside the Unity project. This script does nothing but has an explanation for using the software. This script is copied in sections below:
+    Create a New Unity Project
+    Open The File Explorer showing the files for this New Unity project
+        Close Unity
+    Delete the "Scenes" Folder of the New Unity Project
+
+    Download the data from this repository
+    Copy the downloaded data into the New Unity Project files folder
+        Into the same Project folder that already contains a folder called "Assets"
+        Choose to Replace all Duplicate files
+
+    Open the New Unity Project in Unity
+        In the Project Files panel, Go to:
+            "Assets" > "Final Data - In Use" > "Scenes"
+        Open the Scene:
+            "Solar System"
+
+            NOTE: The Scene Titled:
+                "3rd Year Project David Nur Solar System Final"
+            Is almost-identical to "Solar System", 
+                except that all objects, other than the Sun, are at the origin.
+                    If you move the Sun, all objects are placed relative to it
+                They run the same programm otherwise
+                "Solar System" is just easier to view all the planets initially prior to running.
+                    However the initial positions in "Solar System" is purely for display purposes
+
+---------------------------------------------------------------------------------------------------------------------
+
+**Below is a description of how to interact with the software.**
+
+Feel Free to skim it or only refer back when you need to. A Script called README.sc exists in the Unity Project as well.
+The README.sc script doe nothing; it just contains a copy of the below information.
 
 ---------------------------------------------------------------------------------------------------------------------
 
