@@ -2,8 +2,8 @@
 
 **-- BELOW IS A GUIDE FOR THE SOFTWARE --**
 
-**Feel Free to skim it or only refer back when you need to. A Script called README.sc exists in the Unity Project as well.
-The README.sc script doe nothing; it just contains a copy of the below information.**
+_Feel Free to skim it or only refer back when you need to. A Script called README.sc exists in the Unity Project as well.
+The README.sc script doe nothing; it just contains a copy of the below information._
 
 ---------------------------------------------------------------------------------------------------------------------
 
